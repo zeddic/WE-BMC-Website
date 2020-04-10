@@ -1,20 +1,21 @@
 body{
 
-	background-color: lightblue
+	background-color: #143660
 }
 
 h1{
 	font-size: 50px;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 }
 h2{
 	font-size: 30px;
-	color: darkblue;
+	color: white;
 }
 h2{
 	font-size: 20px;
-	color: darkblue;
+	color: white;
+	font-style: 
 }
 
 .big {
