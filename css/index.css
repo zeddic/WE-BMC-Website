@@ -61,24 +61,10 @@ nav a {
 }
 
 nav a:hover {
-	color: #605078;
+	color: white;
 }
 
-nav a::before {
-	content: " ";
-	display: block;
-	height: 5px;
-	width: 0%
-	background-color:red;
 
-	position: absolute;
-	top:0;
-	transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-	width:100%;
-}
 
 /*****TEXT HEADER STYLES*******/
 h1, h2, h3, h4{
@@ -93,8 +79,9 @@ h1{
 	padding: 15px;
 	padding-bottom: 5px;
 	font-weight: bold;
-
 	line-height: 60px;
+	display: inline-block;
+
 }
 
 h4{
@@ -135,15 +122,52 @@ main{
 
 main img{
 	max-width: 100%;
+	margin-left: 250px;
 	border: 8px solid #605078;
-	width: 300px;
+	width: 325px;
 	border-radius: 80px;
-
 }
 
 .description{
-	float: right;
+	text-transform: 
+	padding-left: 50px;
+
 }
+
+.title {
+	text-align: left;
+	font-style: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.event-img {
+	margin: 4px;
+	display: block;
+}
+
+main ul{
+	margin: 0;
+	padding: 0;
+}
+
+main li{
+	margin-left: 40px;
+	margin-right: 15px;
+	margin-top: 10px;
+	font-size: 15px;
+	position: relative;
+}
+
+main a {
+	color: black;
+}
+
+main a:hover {
+	background-color: #9380AD;
+}
+
 
 /*FOOTER SETUP & STYLE*/
 footer a{
