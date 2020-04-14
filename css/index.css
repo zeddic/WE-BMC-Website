@@ -1,3 +1,4 @@
+/*ENTIRE BODY STYLE*/
 body{
 	background-color: white;
 	margin: 0;
@@ -5,6 +6,8 @@ body{
 	font-size: 10px;
 }
 
+/*HEADER STYLES*/
+/*SPECIFICALLY THE TAB BAR & LOGO SETUP*/
 .container {
 	width: 100%;
 	margin: 0 auto;
@@ -77,7 +80,7 @@ nav a:hover::before {
 	width:100%;
 }
 
-
+/*****TEXT HEADER STYLES*******/
 h1, h2, h3, h4{
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -92,7 +95,6 @@ h1{
 	font-weight: bold;
 
 	line-height: 60px;
-
 }
 
 h4{
@@ -110,34 +112,46 @@ h2{
 	text-align: center;
 }
 h3{
-	font-size: 18px;
+	font-size: 22px;
 	color: black;
-	padding-left: 20px;
 	text-align: left;
-	font-style: italic;
+	font-style: bold;
+	text-transform: underline;
 }
 
 
 p{
 	font-size: 15px;
 	color:black;
+	text-align: justify;
 }
 
-
+/*MAIN CONTENT STYLES & SETUP*/
 main{
 	max-width: 800px;
-	margin: 30px auto;
+	margin: 20px auto;
 	padding: 0 20px;
 }
+
 main img{
 	max-width: 100%;
+	border: 8px solid #605078;
+	width: 300px;
+	border-radius: 80px;
+
 }
 
-a{
+.description{
+	float: right;
+}
+
+/*FOOTER SETUP & STYLE*/
+footer a{
 	color: black;
+	font-size: 15px;
 }
 
-a:hover{
+footer a:hover{
 	background-color: white;
 }
 
@@ -150,4 +164,5 @@ footer{
 }
 footer p {
 	margin: 0;
+	text-align: center;
 }
