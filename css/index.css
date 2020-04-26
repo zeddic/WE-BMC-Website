@@ -75,12 +75,11 @@ h1{
 	font-size: 60px;
 	color: black;
 	margin: 40px 0 10px;
-	text-align: center;
-	padding: 15px;
+	padding: 25px;
 	padding-bottom: 5px;
 	font-weight: bold;
 	line-height: 60px;
-	display: inline-block;
+	text-align: center;
 
 }
 
@@ -116,8 +115,8 @@ p{
 /*MAIN CONTENT STYLES & SETUP*/
 main{
 	max-width: 800px;
-	margin: 20px auto;
-	padding: 0 20px;
+	margin: 10px auto;
+	padding: 0 10px;
 }
 
 main img{
@@ -145,6 +144,7 @@ main img{
 .event-img {
 	margin: 4px;
 	display: block;
+	float: center;
 }
 
 main ul{
