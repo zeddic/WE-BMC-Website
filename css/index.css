@@ -1,14 +1,18 @@
 /*ENTIRE BODY STYLE*/
 body{
-	background-color: white;
-	margin: 0;
+	background-color: #f4f4f4;
 	font-family: Helvetica, Arial, Sans-serif;
-	font-size: 10px;
+	font-size: 15px;
+	line-height: 1.5;
+	/*font: 15px/1.5 Helvetica, Arial, Sans-serif ;*/
+	margin: 0;
+	padding: 0;
 }
 
 /*HEADER STYLES*/
 /*SPECIFICALLY THE TAB BAR & LOGO SETUP*/
 .container {
+	
 	width: 100%;
 	margin: 0 auto;
 }

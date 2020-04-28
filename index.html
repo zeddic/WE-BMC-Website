@@ -1,41 +1,83 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title> WE BMC</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="WE BMC Website">
+	<meta name="keywords" content="western engineering, biomedical, biomedical club">
+	<meta name="about" content="Jenna Wemple">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="icon" href="img/logo.png">
+	<title> WE BMC</title>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
 </head>
 <body>
 	<!-- header element -->
 	<header>
-		<div id="container">
-
-			<img src="img/logo2.png" alt="logo" class="logo"> 
-
+		<div class="container">
+			<div id="branding">
+				<img src="img/logo2.png" alt="logo" class="logo"> 
+				<h1>WE BMC</h1>
+			</div>
 			<nav>
 				<ul>
-					<li> <a href="#ABOUT-LINK"> About</a></li>
-					<li> <a href="#EVENT-LINK"> Events</a></li>
-					<li> <a href="#EXEC-LINK"> Executive Team</a></li>
-					<li> <a href="#CONTACT-LINK"> Contact</a></li>
-					<li> <a href="#JOIN-LINK"> Join!</a></li>
+					<li> <a href="index.html"> Home</a></li>
+					<li> <a href="about.html"> About</a></li>
+					<li> <a href="events.html"> Events</a></li>
+					<li> <a href="executives.html"> Executives</a></li>
+					<li> <a href="contact.html"> Contact</a></li>
 				</ul>
-			</nav>
+			</nav> 
 		</div>
-		<br><br>
 		<!-- <div id="logo"> 
 		<img src="img/WE BMC logo.png"></div> -->
-		<h1 >Western Engineering Biomedical Club</h1>
-		<h4>WE BMC brings together students in various disciplines and allows them to pursue their interest in biomedical applications. </h4>
-		
-		
 	</header>
 
-	<!-- main element -->
-	<main>
+	<section id="showcase">
+		<div class="container">
+			<h1 >Western Engineering Biomedical Club</h1>
+			<p>WE BMC brings together students in various disciplines and allows them to pursue their interest in biomedical applications. </p>
+		</div>
+	</section>
 
-		<!-- About -->
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe To Our Newsletter</h1>
+			<form>
+				<input type="email" placeholder="Enter Email....">
+				<button type="submit" class="button1"> Subscribe</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="./img/facebook.png">
+				<h3>Facebook</h3>
+				<p>Add us on Facebook for notifications on upcoming events!</p>				
+			</div>
+			<div class="box">
+				<img src="./img/linkedin.png">
+				<h3>LinkedIn</h3>
+				<p>Follow us on LinkedIn for information on recent biomedical research and events happening around the world!</p>		
+			</div>
+			<div class="box">
+				<img src="./img/instagram.png">
+				<h3>Instagram</h3>
+				<p>Add us on Instagram for pictures and stories on events WEBMC is apart of or holding!</p>				
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- main element -->
+	<!-- <main>
+
+		About 
+
 		<h2> About <a id="ABOUT-LINK"></a></h2>
 
 		<p><br>We collaborate with graduate students, professors and industry leaders to show undergraduate students various possibilites in biomedical engineering. 
@@ -44,9 +86,9 @@
 		
 		<br><br>For more information on the biomedical concurrent degree click <a target = "_blank" href="https://www.eng.uwo.ca/biomed/undergraduate/index.html"> here.</a> <br></p>
 
-		<!-- <img src="img/company event.jpg"> -->
+		<img src="img/company event.jpg"> 
 
-		<!-- Events  -->
+		Events  
 		<h2>Events<a id="EVENT-LINK"></a></h2>
 		<p>Potential events will include guest speakers, biomedical competition, industry spotlights, meetings and skills labs. In addition, professors and graduate students will share their past experiences and their paths on how they decided on a career in biomedical engineering.</p>
 
@@ -56,7 +98,7 @@
 
 		<h3> Past Events</h3>
 			<div id="past-events1">
-				<!-- ***November 2019***	-->
+				 ***November 2019***	
 				<p class="title"> Industry Spotlight (November 2019)</p>
 				<img src="img/company event.jpg" class="event-img"> 
 
@@ -81,7 +123,7 @@
 
 					
 
-				<!-- ***November 2018***	-->
+				 ***November 2018***	
 				<p class="title">Graduate Student Panel (November 2018)</p>
 
 				<img src="img/masters event.jpg" class="event-img" title="Master's Student Seminar"> 
@@ -89,7 +131,7 @@
 				<p class="description">
 					A panel made up of eight graduate students presented their path to graduate school and information on current and past research. This event gave students the opportunity to lear more about graduate and research possibilites in biomedical engineering. Students were able to network with the graduate students after presentations were complete. For more information on the graduate students that attended the event please refer to our Facebook event details <a target = "_blank" href="https://www.facebook.com/events/492877757886224/?acontext=%7B%22source%22%3A5%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%5C%22[]%5C%22%22%7D]%2C%22has_source%22%3Atrue%7D"> here.</a></p>
 
-				<!-- ***November 2018***	-->
+				 ***November 2018***	
 				<p class="title">Trudell Medical Tour (November 2018)</p>
 
 				<img src="img/trudell event.jpg" class="event-img" title="Trudell Medical Tour"> 
@@ -100,7 +142,7 @@
 				
 
 			</div>
-<!-- 
+
 		<ul>
 			<li>Master's Student Seminar</li>
 			<img src="img/masters event.jpg">
@@ -109,8 +151,8 @@
 			<li>Biomedical Industry Spotlight Networking Event</li>
 			<li>Conferences</li>
 			<img src="img/biotech.jpg">
-		</ul> -->
-		<!-- exec team -->
+		</ul> 
+		exec team 
 		<h2> Executive Team <a id="EXEC-LINK"></a></h2>
 
 		<h3> President </h3>
@@ -131,12 +173,11 @@
 
 		
 
-	</main>
+	</main> -->
 
 	<!-- Footer ELement -->
 	<footer>
-		<!-- Put links to linkedin, facebook, ect here.  -->
-		<p> Copyright &copy; 2018 Western University. Website created by Jenna Wemple. </p>
+		<p> Copyright &copy; 2020 Western Engineering Biomedical Club. Website created by Jenna Wemple. </p>
 
 		<a target = "_blank" href="https://www.uwo.ca/univsec/privacy/"> Privacy   </a> <br>
 
