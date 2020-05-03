@@ -188,6 +188,44 @@ article#main-col{
 
 }
 
+#main-col a:hover {
+	background: white;
+	font-weight: bold;
+	color: #32578a;
+}
+
+/*Events*/
+
+ul#events li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6
+}
+
+ul#events img{
+	width: 400px;
+	float: center;
+
+}
+
+#main-col2 a:hover {
+	background: white;
+	font-weight: bold;
+	color: #32578a;
+}
+
+article#main-col2{
+	float: center;
+	width: 50%;
+}
+
+aside#main-col2{
+	float: center;
+	width: 50%;
+
+}
 
 
 /*****TEXT HEADER STYLES*******/
