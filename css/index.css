@@ -186,7 +186,6 @@ aside#sidebar{
 article#main-col{
 	float: left;
 	width: 65%;
-
 }
 
 #main-col a:hover {
@@ -195,32 +194,49 @@ article#main-col{
 	color: #32578a;
 }
 
-/*Events*/
+/*Contact*/
 
-/*ul#events li{
-	list-style: none;
-	padding: 20px;
-	border: #cccccc solid 1px;
-	margin-bottom: 5px;
-	background: #e6e6e6
+.contact input, .contact textarea{
+	width: 90%;
+	padding: 5px;
 }
 
-ul#events img{
-	width: 400px;
-	float: center;
+/*Media Queries*/
+@media (max-width: 768px){
+	header #branding, 
+	header nav,
+	 header nav li, 
+	 #newsletter form,
+	 #boxes .box, 
+	 article #main-col,
+	 aside #sidebar{
+		float: none;
+		text-align: center;
+		width: 100%
+	}
 
+	header{
+		padding-bottom: 20px;
+	}
+
+	#showcase h1{
+		margin-top: 40px;
+	}
+
+	#newsletter button,
+	.contact button{
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter form input[type="email"],
+	.contact input, 
+	.contact textarea{
+		width: 100%;
+		margin-bottom: 5px;
+	}
 }
 
-#main-col2 a:hover {
-	background: white;
-	font-weight: bold;
-	color: #32578a;
-}
-
-article#main-col2{
-	float: center;
-	width: 100%;
-}*/
 
 
 
