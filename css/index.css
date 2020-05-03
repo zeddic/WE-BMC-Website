@@ -196,10 +196,11 @@ article#main-col{
 
 /*Contact*/
 
-.contact input, .contact textarea{
-	width: 90%;
-	padding: 5px;
+.contact input, .contact textarea, .contact button{
+	width: 85%;
+	padding: 6px;
 }
+
 
 /*Media Queries*/
 @media (max-width: 768px){
@@ -236,10 +237,6 @@ article#main-col{
 		margin-bottom: 5px;
 	}
 }
-
-
-
-
 
 
 /*****TEXT HEADER STYLES*******/
