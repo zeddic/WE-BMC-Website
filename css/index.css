@@ -151,6 +151,7 @@ header .hightlight, header .current a{
 	float: left;
 	width: 30%;
 	padding:10px;
+	padding-left: 20px;
 	text-align: center;
 }
 
@@ -162,11 +163,11 @@ header .hightlight, header .current a{
 
 section a{
 	color: black;
-	text-decoration: none;
+/*	text-decoration: none;*/
 }
 
 section a:hover {
-	background: #32578a;
+	background: white;
 	font-weight: bold;
 	color: #32578a;
 
@@ -196,7 +197,7 @@ article#main-col{
 
 /*Events*/
 
-ul#events li{
+/*ul#events li{
 	list-style: none;
 	padding: 20px;
 	border: #cccccc solid 1px;
@@ -218,14 +219,11 @@ ul#events img{
 
 article#main-col2{
 	float: center;
-	width: 50%;
-}
+	width: 100%;
+}*/
 
-aside#main-col2{
-	float: center;
-	width: 50%;
 
-}
+
 
 
 /*****TEXT HEADER STYLES*******/
