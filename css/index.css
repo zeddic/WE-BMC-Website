@@ -201,6 +201,21 @@ article#main-col{
 	padding: 6px;
 }
 
+.contact textarea, .contact button{
+	padding-left: 10px;
+	margin-left: 38px;
+	width: 80%;
+}
+
+.contact textarea{
+	padding-bottom: 80px;
+}
+
+div.message{
+	margin-left: 38px;
+}
+
+
 
 /*Media Queries*/
 @media (max-width: 768px){
